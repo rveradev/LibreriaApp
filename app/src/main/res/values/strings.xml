@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Libreria App</string>
+    <string name="home">Inicio</string>
+    <string name="books">Libros</string>
+    <string name="credits">Creditos</string>
 </resources>
