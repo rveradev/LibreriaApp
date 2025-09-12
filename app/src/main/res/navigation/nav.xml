@@ -7,29 +7,8 @@
 
     <fragment
         android:id="@+id/inicio"
+        android:name="cl.unab.libreriaapp.InicioFragment"
         android:label="fragment_inicio"
-        tools:layout="" >
-    </fragment>
-    <fragment
-        android:id="@+id/libros"
-        android:label="fragment_libros"
-        tools:layout="" >
-
-        <action
-            android:id="@+id/action_libros_to_detalle"
-            app:destination="@id/libro_detalle"/>
-    </fragment>
-    <fragment
-        android:id="@+id/libro_detalle"
-        android:label="fragment_libro_detalle"
-        tools:layout="">
-        <argument
-            android:name="libro_seleccionado"
-            app:argType="cl.unab.libreriaapp.model.Card" />
-    </fragment>
-    <fragment
-        android:id="@+id/creditos"
-        android:label="fragment_creditos"
-        tools:layout="" >
+        tools:layout="@layout/fragment_inicio" >
     </fragment>
 </navigation>

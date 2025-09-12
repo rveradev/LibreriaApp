@@ -25,14 +25,6 @@ class MainActivity : AppCompatActivity() {
                     navController.navigate(R.id.inicio)
                     true
                 }
-                R.id.libros -> {
-                    navController.navigate(R.id.libros)
-                    true
-                }
-                R.id.creditos -> {
-                    navController.navigate(R.id.creditos)
-                    true
-                }
                 else -> false
             }
         }
