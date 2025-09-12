@@ -11,4 +11,10 @@
         android:label="fragment_inicio"
         tools:layout="@layout/fragment_inicio" >
     </fragment>
+    <fragment
+        android:id="@+id/creditos"
+        android:name="cl.unab.libreriaapp.CreditosFragment"
+        android:label="fragment_creditos"
+        tools:layout="@layout/fragment_creditos" >
+    </fragment>
 </navigation>
