@@ -3,4 +3,8 @@
     <string name="home">Inicio</string>
     <string name="books">Libros</string>
     <string name="credits">Creditos</string>
+    <string name="integrante_1">Rafael Vera</string>
+    <string name="intengrante_2">Sebastian Ramirez</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
