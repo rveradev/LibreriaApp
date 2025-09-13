@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Libreria App</string>
+    <string name="home">Inicio</string>
+    <string name="books">Libros</string>
+    <string name="credits">Creditos</string>
+    <string name="integrante_1">Rafael Vera</string>
+    <string name="intengrante_2">Sebastian Ramirez</string>
+    <string name="btn_card">Más detalles</string>
+    <string name="libro_titulo_1">El Principito</string>
+    <string name="libro_titulo_2">El Gato Negro</string>
+    <string name="libro_titulo_3">Noches Blancas</string>
+    <string name="libro_descripcion_1">El Principito narra el encuentro entre un piloto accidentado en el desierto y un niño del espacio, el Principito, quien le cuenta su historia de un asteroide a la Tierra.</string>
+    <string name="libro_descripcion_2">Un hombre preso y condenado a muerte, decide contar lo sucedido desde su perspectiva. Así, relata cómo desde la infancia sentía una afinidad especial con los animales, por lo que de adulto tenía muchas mascotas: pájaros, peces, un perro, conejos, un mono y un gato.</string>
+    <string name="libro_descripcion_3">narra la historia de un joven solitario en San Petersburgo que se enamora de Nastenka, una joven que conoce durante las "noches blancas", un fenómeno en el que la luz del día es casi constante.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

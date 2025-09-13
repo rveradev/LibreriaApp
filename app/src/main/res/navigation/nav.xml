@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="cl.unab.libreriaapp.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+    </fragment>
+    <fragment
+        android:id="@+id/libros"
+        android:name="cl.unab.libreriaapp.LibrosFragment"
+        android:label="fragment_libros"
+        tools:layout="@layout/fragment_libros" >
+
+        <action
+            android:id="@+id/action_libros_to_detalle"
+            app:destination="@id/libro_detalle"/>
+    </fragment>
+    <fragment
+        android:id="@+id/libro_detalle"
+        android:name="cl.unab.libreriaapp.LibroDetalleFragment"
+        android:label="fragment_libro_detalle"
+        tools:layout="@layout/fragment_libro_detalle">
+        <argument
+            android:name="libro_seleccionado"
+            app:argType="cl.unab.libreriaapp.card.Card" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditos"
+        android:name="cl.unab.libreriaapp.CreditosFragment"
+        android:label="fragment_creditos"
+        tools:layout="@layout/fragment_creditos" >
+    </fragment>
+</navigation>
