@@ -39,6 +39,14 @@ Para la visualización de la lista de libros, se optó por un **`RecyclerView`**
   * **`Parcelize`**: Un plugin de Kotlin que simplifica la serialización de objetos, lo que hace más fácil pasar datos complejos entre componentes de Android.
 
 
-## **5. Enlace al Repositorio de GitHub**
+## *5. Gestión del Código Fuente*
 
-[**Enlace al repositorio de GitHub del proyecto**](https://github.com/rveradev/LibreriaApp.git)
+Se utilizó una estrategia de ramificación para un desarrollo colaborativo y ordenado:
+
+* *main*: La rama principal, estable y lista para consumir.
+* *develop*: La rama de desarrollo principal, donde se fusionan todas las nuevas funcionalidades.
+* **feat/***: Ramas de características (feat/navbar, feat/libros, feat/creditos, etc.) para desarrollar nuevas funcionalidades de forma aislada.
+
+## *6. Enlace al Repositorio de GitHub*
+
+[*Enlace al repositorio de GitHub del proyecto*](https://github.com/rveradev/LibreriaApp.git)
